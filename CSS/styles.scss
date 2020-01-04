@@ -1,0 +1,309 @@
+$standardColors: (
+    primary: #284047,
+    textColor: #3C3C3C,
+    support1: rgb(129, 129, 129),
+    support2: #E4E4E4,
+    support3: #192629
+);
+@function colors($color-name) {
+    @return map-get($standardColors, $color-name)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+    background-color: colors(support2);
+}
+
+
+// nav setup
+nav {
+    text-transform: uppercase;
+    box-shadow: 0;
+}
+.coloredNav {
+    background: colors(primary);
+    transition: 0.5s ease;
+}
+.nav-wrapper #menu {
+    display: none;
+}
+nav .brand-logo {
+    font-size: 2.1rem;
+}
+// Side Nav
+.sidenav {
+    .img {
+        background: colors(primary);
+    }
+}
+
+// Main Section
+.main {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/headBG.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.header {
+    text-align: center;
+    h1 {
+        opacity: 0;
+        margin-top: 250px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        text-align: center;
+
+        animation: fadeInDown 1s forwards;
+        animation-delay: 1s;
+
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateX(-200px);
+            }
+            50% {
+                transform: translateX(-0px);
+            }
+            75% {
+                transform: translateX(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+    }
+    h4 {
+        opacity: 0;
+        animation: fadeInUp 1s forwards;
+        animation-delay: 1s;
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateX(200px);
+            }
+            50% {
+                transform: translateX(-0px);
+            }
+            75% {
+                transform: translateX(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+    }
+    img {
+        margin-top: 150px;
+        cursor: pointer;
+        opacity: 0;
+        animation: arrowJump 1s infinite;
+        animation-delay: 2s;
+
+        @keyframes arrowJump {
+            0% {
+                opacity: 0.5;
+                transform: translateY(0px);
+            }
+            50% {
+                opacity: 0.5;
+                transform: translateY(-50px);
+            }
+            75% {
+                opacity: 0.5;
+                transform: translateY(0px);
+            }
+            80% {
+                opacity: 0.5;
+                transform: translateY(-10px);
+            }
+            100% {
+                opacity: 0.5;
+                transform: translateY(0px);
+            }
+        }
+    }
+}
+
+// About Section
+.about {
+    width: 100%;
+    position: relative;
+    background: #fff;
+    width: 100%;
+    padding: 20px 0;
+
+    h3 {
+        color: colors(support1);
+        font-weight: bold;
+    }
+    .bar {
+        margin: 0 auto;
+        height: 3px;
+        width: 120px;
+        background-color: colors(primary);
+        margin-bottom: 20px;
+    }
+    #image {
+        box-shadow: 0px 0px 0px #284047;
+    }
+    #image:hover {
+        box-shadow: 15px 15px 0px #284047;
+        transform: scale(1.02);
+        transition: 0.7s ease;
+    }
+    .content {
+        // margin-top: 60px;
+        span {
+            color: colors(primary);
+            font-weight: 500;
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        p {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        .images {
+            margin-left: 10px;
+            .img-list {
+                padding: 0;
+                img {
+                    height: 70px;
+                    width: 70px;
+                }
+            }
+        }
+    }
+}
+
+// Services Section
+.services {
+    position: relative;
+    background: colors(support2);
+    padding: 30px 0;
+    h3 {
+        color: colors(support1);
+        font-weight: bold;
+    }
+    .bar {
+        margin: 0 auto;
+        height: 3px;
+        width: 120px;
+        background-color: colors(primary);
+        margin-bottom: 30px;
+    }
+    img {
+        height: 200px;
+        width: 200px;
+    }
+    h4 {
+        font-weight: 650;
+        font-size: 20px;
+    }
+    p {
+        text-align: left;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}
+
+// Portfolio Section
+.portfolio {
+    position: relative;
+    background: #fff;
+    padding: 30px 0;
+    
+    h3 {
+        color: colors(support1);
+        font-weight: bold;
+    }
+    .bar {
+        margin: 0 auto;
+        height: 3px;
+        width: 120px;
+        background-color: colors(primary);
+        margin-bottom: 30px;
+    }
+    .card {
+        margin-top: 20px;
+    }
+}
+
+// Contact Section
+.contact {
+    position: relative;
+    background: colors(support2);
+    padding: 25px 0;
+
+    .centerItems {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-weight: 600;
+        color: colors(primary);
+        padding-bottom: 30px;
+    }
+    img {
+        height: 100px;
+        width: 100px;
+    }
+    img:hover {
+        animation-name: jump;
+        animation-duration: 1s;
+
+        @keyframes jump {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            75% {
+                transform: translateY(0px);
+            }
+            80% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+    }
+    span {
+        font-size: 13px;
+        color: colors(primary);
+    }
+}
+
+// Footer
+footer {
+    position: relative;
+    background: #192629;
+    height: 5rem;
+    width: 100%;
+    h5 {
+        color: colors(support1);
+        padding-top: 1.5rem;
+    }
+}
+
+

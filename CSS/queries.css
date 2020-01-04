@@ -1,0 +1,202 @@
+@media screen and (max-width: 2560px) {
+  .about .content {
+    margin-top: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .about .content {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-wrapper #menu {
+    display: block;
+  }
+  nav .brand-logo {
+    font-size: 1.4rem;
+  }
+  .header img {
+    margin-top: 150px;
+  }
+  .header h1 {
+    margin-top: 35vh;
+    font-size: 50px;
+  }
+  .header h4 {
+    font-size: 25px;
+  }
+  .about .content {
+    margin-top: 1rem;
+  }
+  .about .content span {
+    font-size: 20px;
+  }
+  .about .content p {
+    font-size: 15px;
+  }
+  .about .content .images .img-list img {
+    height: 60px;
+    width: 60px;
+  }
+  .portfolio .card .card-image img {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .about .content {
+    margin-top: 0;
+  }
+  .about .content span {
+    font-size: 18px;
+  }
+  .about .content .images {
+    padding: 10px 0;
+  }
+  .about .content .images .img-list img {
+    height: 40px;
+    width: 40px;
+  }
+  .services img {
+    height: 130px;
+    width: 130px;
+  }
+  .services h4 {
+    font-size: 15px;
+  }
+  .services p {
+    font-size: 13px;
+  }
+  .portfolio .container .row .col {
+    margin-left: 0;
+  }
+  .portfolio .container .row .col .card img {
+    height: 180px;
+  }
+  .contact img {
+    height: 70px;
+    width: 70px;
+  }
+  .contact span {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav .brand-logo {
+    font-size: 1.2rem;
+  }
+  .header h1 {
+    font-size: 32px;
+  }
+  .header h4 {
+    font-size: 20px;
+  }
+  .about .content p {
+    padding: 10px 0;
+  }
+  .about .container span {
+    margin: 0;
+  }
+  .about .container p {
+    margin: 0;
+  }
+  .about .container .row .col .row {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  nav .brand-logo {
+    font-size: 1.2rem;
+  }
+  .header h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .header h4 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  .header img {
+    height: 40px;
+    width: 40px;
+  }
+  .about {
+    padding: 5px 0;
+  }
+  .about h3 {
+    font-size: 20px;
+  }
+  .about .bar {
+    width: 70px;
+  }
+  .about .content {
+    margin-top: 10px;
+  }
+  .about .content span {
+    margin: 0;
+    font-size: 18px;
+  }
+  .about .content p {
+    margin: 0;
+    font-size: 13px;
+    padding: 10px 0;
+  }
+  .about .content .images {
+    margin: 0;
+    padding: 10px 0;
+  }
+  .about .content .images .img-list img {
+    height: 35px;
+    width: 35px;
+  }
+  .about .content .row {
+    margin-bottom: 0;
+  }
+  .services {
+    padding: 10px 0;
+  }
+  .services h3 {
+    font-size: 20px;
+  }
+  .services .bar {
+    width: 70px;
+  }
+  .services img {
+    height: 170px;
+    width: 17s0px;
+  }
+  .services h4 {
+    margin: 10px 0;
+  }
+  .portfolio {
+    padding: 10px 0;
+  }
+  .portfolio h3 {
+    font-size: 20px;
+  }
+  .portfolio .bar {
+    width: 70px;
+  }
+  .portfolio img {
+    height: 200px;
+    width: 300px;
+  }
+  .portfolio a {
+    font-size: 10px;
+  }
+  .contact {
+    padding: 10px 0;
+  }
+  .contact h3 {
+    padding-bottom: 10px;
+  }
+  .contact img {
+    height: 50px;
+    width: 50px;
+  }
+}
+/*# sourceMappingURL=queries.css.map */
