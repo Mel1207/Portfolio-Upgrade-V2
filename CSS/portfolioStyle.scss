@@ -48,8 +48,8 @@ nav .brand-logo {
 
 // Main Section
 .main {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/headBG.jpg);
-    height: 100vh;
+    background: linear-gradient(rgba(6,43,46,0.9), rgba(6, 43, 46, 0.2)), url(/img/portfolioBG.jpg);
+    height: 70vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ nav .brand-logo {
     text-align: center;
     h1 {
         opacity: 0;
-        margin-top: 250px;
+        margin-top: 60px;
         font-weight: 500;
         letter-spacing: 3px;
         text-align: center;
@@ -109,7 +109,7 @@ nav .brand-logo {
         }
     }
     img {
-        margin-top: 150px;
+        margin-top: 100px;
         cursor: pointer;
         opacity: 0;
         animation: arrowJump 1s infinite;
@@ -117,86 +117,35 @@ nav .brand-logo {
 
         @keyframes arrowJump {
             0% {
-                opacity: 0.5;
+                opacity: 0.7;
                 transform: translateY(0px);
             }
             50% {
-                opacity: 0.5;
+                opacity: 0.7;
                 transform: translateY(-50px);
             }
             75% {
-                opacity: 0.5;
+                opacity: 0.7;
                 transform: translateY(0px);
             }
             80% {
-                opacity: 0.5;
+                opacity: 0.7;
                 transform: translateY(-10px);
             }
             100% {
-                opacity: 0.5;
+                opacity: 0.7;
                 transform: translateY(0px);
             }
         }
     }
 }
 
-// About Section
-.about {
-    width: 100%;
+// Portfolio Section
+.portfolio {
     position: relative;
     background: #fff;
-    width: 100%;
-    padding: 20px 0;
-
-    h3 {
-        color: colors(support1);
-        font-weight: bold;
-    }
-    .bar {
-        margin: 0 auto;
-        height: 3px;
-        width: 120px;
-        background-color: colors(primary);
-        margin-bottom: 20px;
-    }
-    #image {
-        box-shadow: 0px 0px 0px #284047;
-    }
-    #image:hover {
-        box-shadow: 15px 15px 0px #284047;
-        transform: scale(1.02);
-        transition: 0.7s ease;
-    }
-    .content {
-        // margin-top: 60px;
-        span {
-            color: colors(primary);
-            font-weight: 500;
-            font-size: 30px;
-            margin-left: 20px;
-        }
-        p {
-            font-size: 20px;
-            margin-left: 20px;
-        }
-        .images {
-            margin-left: 10px;
-            .img-list {
-                padding: 0;
-                img {
-                    height: 70px;
-                    width: 70px;
-                }
-            }
-        }
-    }
-}
-
-// Services Section
-.services {
-    position: relative;
-    background: colors(support2);
     padding: 30px 0;
+    
     h3 {
         color: colors(support1);
         font-weight: bold;
@@ -208,18 +157,8 @@ nav .brand-logo {
         background-color: colors(primary);
         margin-bottom: 30px;
     }
-    img {
-        height: 200px;
-        width: 200px;
-    }
-    h4 {
-        font-weight: 650;
-        font-size: 20px;
-    }
-    p {
-        text-align: left;
-        font-size: 18px;
-        padding-bottom: 20px;
+    .card {
+        margin-top: 20px;
     }
 }
 

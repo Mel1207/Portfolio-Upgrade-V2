@@ -55,16 +55,6 @@
             }
         }
     }
-    // Portfolio Section 
-    .portfolio {
-        .card {
-            .card-image {
-                img {
-                    height: 220px;
-                }
-            }
-        }
-    }
 }
 // Tablet screens
 @media screen and (max-width: 780px) {
@@ -98,21 +88,6 @@
         }
         p {
             font-size: 13px;
-        }
-    }
-    // Portfolio Section
-    .portfolio {
-        .container {
-            .row {
-                .col {
-                    margin-left: 0;
-                    .card {
-                        img {
-                            height: 180px;
-                        }
-                    }
-                }
-            }
         }
     }
 
@@ -239,23 +214,7 @@
             margin: 10px 0;
         }
     }
-    // Portfolio Section
-    .portfolio {
-        padding: 10px 0;
-        h3 {
-            font-size: 20px;
-        }
-        .bar {
-            width: 70px;
-        }
-        img {
-            height: 200px;
-            width: 300px;
-        }
-        a {
-            font-size: 10px;
-        }
-    }
+    
     // Contact Section
     .contact {
         padding: 10px 0;

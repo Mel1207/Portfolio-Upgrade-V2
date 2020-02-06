@@ -40,9 +40,6 @@
     height: 60px;
     width: 60px;
   }
-  .portfolio .card .card-image img {
-    height: 220px;
-  }
 }
 
 @media screen and (max-width: 780px) {
@@ -68,12 +65,6 @@
   }
   .services p {
     font-size: 13px;
-  }
-  .portfolio .container .row .col {
-    margin-left: 0;
-  }
-  .portfolio .container .row .col .card img {
-    height: 180px;
   }
   .contact img {
     height: 70px;
@@ -171,22 +162,6 @@
   }
   .services h4 {
     margin: 10px 0;
-  }
-  .portfolio {
-    padding: 10px 0;
-  }
-  .portfolio h3 {
-    font-size: 20px;
-  }
-  .portfolio .bar {
-    width: 70px;
-  }
-  .portfolio img {
-    height: 200px;
-    width: 300px;
-  }
-  .portfolio a {
-    font-size: 10px;
   }
   .contact {
     padding: 10px 0;

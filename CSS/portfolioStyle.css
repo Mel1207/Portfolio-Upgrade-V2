@@ -39,9 +39,9 @@ nav .brand-logo {
 }
 
 .main {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/img/headBG.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/headBG.jpg);
-  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 43, 46, 0.9)), to(rgba(6, 43, 46, 0.2))), url(/img/portfolioBG.jpg);
+  background: linear-gradient(rgba(6, 43, 46, 0.9), rgba(6, 43, 46, 0.2)), url(/img/portfolioBG.jpg);
+  height: 70vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@ nav .brand-logo {
 
 .header h1 {
   opacity: 0;
-  margin-top: 250px;
+  margin-top: 60px;
   font-weight: 500;
   letter-spacing: 3px;
   text-align: center;
@@ -159,7 +159,7 @@ nav .brand-logo {
 }
 
 .header img {
-  margin-top: 150px;
+  margin-top: 100px;
   cursor: pointer;
   opacity: 0;
   -webkit-animation: arrowJump 1s infinite;
@@ -170,27 +170,27 @@ nav .brand-logo {
 
 @-webkit-keyframes arrowJump {
   0% {
-    opacity: 0.5;
+    opacity: 0.7;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.7;
     -webkit-transform: translateY(-50px);
             transform: translateY(-50px);
   }
   75% {
-    opacity: 0.5;
+    opacity: 0.7;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
   80% {
-    opacity: 0.5;
+    opacity: 0.7;
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
   }
   100% {
-    opacity: 0.5;
+    opacity: 0.7;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
@@ -198,104 +198,44 @@ nav .brand-logo {
 
 @keyframes arrowJump {
   0% {
-    opacity: 0.5;
+    opacity: 0.7;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.7;
     -webkit-transform: translateY(-50px);
             transform: translateY(-50px);
   }
   75% {
-    opacity: 0.5;
+    opacity: 0.7;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
   80% {
-    opacity: 0.5;
+    opacity: 0.7;
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
   }
   100% {
-    opacity: 0.5;
+    opacity: 0.7;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
 }
 
-.about {
-  width: 100%;
+.portfolio {
   position: relative;
   background: #fff;
-  width: 100%;
-  padding: 20px 0;
-}
-
-.about h3 {
-  color: #818181;
-  font-weight: bold;
-}
-
-.about .bar {
-  margin: 0 auto;
-  height: 3px;
-  width: 120px;
-  background-color: #284047;
-  margin-bottom: 20px;
-}
-
-.about #image {
-  -webkit-box-shadow: 0px 0px 0px #284047;
-          box-shadow: 0px 0px 0px #284047;
-}
-
-.about #image:hover {
-  -webkit-box-shadow: 15px 15px 0px #284047;
-          box-shadow: 15px 15px 0px #284047;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-  -webkit-transition: 0.7s ease;
-  transition: 0.7s ease;
-}
-
-.about .content span {
-  color: #284047;
-  font-weight: 500;
-  font-size: 30px;
-  margin-left: 20px;
-}
-
-.about .content p {
-  font-size: 20px;
-  margin-left: 20px;
-}
-
-.about .content .images {
-  margin-left: 10px;
-}
-
-.about .content .images .img-list {
-  padding: 0;
-}
-
-.about .content .images .img-list img {
-  height: 70px;
-  width: 70px;
-}
-
-.services {
-  position: relative;
-  background: #E4E4E4;
   padding: 30px 0;
 }
 
-.services h3 {
+.portfolio h3 {
   color: #818181;
   font-weight: bold;
 }
 
-.services .bar {
+.portfolio .bar {
   margin: 0 auto;
   height: 3px;
   width: 120px;
@@ -303,20 +243,8 @@ nav .brand-logo {
   margin-bottom: 30px;
 }
 
-.services img {
-  height: 200px;
-  width: 200px;
-}
-
-.services h4 {
-  font-weight: 650;
-  font-size: 20px;
-}
-
-.services p {
-  text-align: left;
-  font-size: 18px;
-  padding-bottom: 20px;
+.portfolio .card {
+  margin-top: 20px;
 }
 
 .contact {
@@ -419,4 +347,4 @@ footer h5 {
   color: #818181;
   padding-top: 1.5rem;
 }
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=portfolioStyle.css.map */

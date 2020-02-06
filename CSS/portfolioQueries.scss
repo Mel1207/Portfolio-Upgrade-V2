@@ -1,0 +1,135 @@
+// 4k Resolution
+@media screen and (max-width: 2560px) {
+    .about {
+        .content {
+            margin-top: 3.5rem;
+        }
+    }
+}
+// Laptop/computer - Large
+@media screen and (max-width: 1440px) {
+    .about {
+        .content {
+            margin-top: 0;
+        }
+    }
+}
+// Laptop/computer - small to medium
+@media screen and (max-width: 1024px) {
+    .nav-wrapper #menu {
+        display: block;
+    }
+    nav .brand-logo {
+        font-size: 1.5rem;
+    }
+    
+    // Portfolio Section 
+    .portfolio {
+        .card {
+            .card-image {
+                img {
+                    height: 220px;
+                }
+            }
+        }
+    }
+}
+// Tablet screens
+@media screen and (max-width: 780px) {
+    // Portfolio Section
+    .portfolio {
+        .container {
+            .row {
+                .col {
+                    margin-left: 0;
+                    .card {
+                        img {
+                            height: 180px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Contact Section
+    .contact {
+        img {
+            height:70px;
+            width: 70px;
+        }
+        span {
+            font-size: 11px;
+        }
+    }
+}
+// Mobile Phones - Large screens
+@media screen and (max-width: 480px) {
+    nav .brand-logo {
+        font-size: 1.2rem;
+    }
+    // Main Section
+    .header {
+        h1 {
+            margin-top: 150px;
+            font-size: 32px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        img {
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
+// Mobile phones - small to medium screens
+@media screen and (max-width: 360px) {
+    nav .brand-logo {
+        font-size: 1rem;
+    }
+    // Main Section
+    .header {
+        h1 {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+        h4 {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        img {
+            height: 40px;
+            width: 40px;
+        }
+    }
+
+    // Portfolio Section
+    .portfolio {
+        padding: 10px 0;
+        h3 {
+            font-size: 20px;
+        }
+        .bar {
+            width: 70px;
+        }
+        img {
+            height: 200px;
+            width: 300px;
+        }
+        a {
+            font-size: 10px;
+        }
+    }
+    // Contact Section
+    .contact {
+        padding: 10px 0;
+        h3 {
+            padding-bottom: 10px;
+        }
+        img {
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
