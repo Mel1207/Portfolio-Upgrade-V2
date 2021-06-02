@@ -148,6 +148,11 @@ nav .brand-logo {
     width: 100%;
     padding: 20px 0;
 
+    .row {
+        display: flex;
+        align-items: center;
+    }
+
     h3 {
         color: colors(support1);
         font-weight: bold;
