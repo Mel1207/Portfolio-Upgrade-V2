@@ -161,11 +161,12 @@ nav .brand-logo {
     }
     #image {
         box-shadow: 0px 0px 0px #284047;
+        transition: 0.7s ease;
     }
     #image:hover {
         box-shadow: 15px 15px 0px #284047;
         transform: scale(1.02);
-        transition: 0.7s ease;
+        
     }
     .content {
         // margin-top: 60px;
