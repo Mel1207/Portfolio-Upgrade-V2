@@ -1,3 +1,9 @@
+const copyRight = document.querySelector('.copyright-year');
+
+const yearNow = new Date().getFullYear();
+console.log(yearNow)
+copyRight.textContent = yearNow;
+
 
 $(document).ready(() => {
     // Side nav function
