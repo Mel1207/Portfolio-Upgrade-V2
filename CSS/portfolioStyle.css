@@ -247,6 +247,18 @@ nav .brand-logo {
   margin-top: 20px;
 }
 
+.portfolio .card .tech-id {
+  font-size: 14px;
+  color: #FF574D;
+  background: #FFF3F3;
+  padding: 7px 17px;
+  border-radius: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 20px;
+}
+
 .contact {
   position: relative;
   background: #f0f0f0;
