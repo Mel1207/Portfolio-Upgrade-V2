@@ -276,12 +276,13 @@ nav .brand-logo {
 footer {
     position: relative;
     background: #192629;
-    height: 5rem;
+    height: auto;
     width: 100%;
     h5 {
         color: colors(support1);
-        padding-top: 1.5rem;
+        margin: 0;
+        font-size: 18px;
+        padding: 1em 0;
     }
 }
-
 

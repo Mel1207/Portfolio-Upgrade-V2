@@ -339,12 +339,14 @@ nav .brand-logo {
 footer {
   position: relative;
   background: #192629;
-  height: 5rem;
+  height: auto;
   width: 100%;
 }
 
 footer h5 {
   color: #818181;
-  padding-top: 1.5rem;
+  margin: 0;
+  font-size: 18px;
+  padding: 1em 0;
 }
 /*# sourceMappingURL=portfolioStyle.css.map */
