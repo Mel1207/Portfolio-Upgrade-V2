@@ -26,6 +26,9 @@
   .portfolio .container .row .col {
     margin-left: 0;
   }
+  .portfolio .container .row .col .card img {
+    height: auto !important;
+  }
   .contact img {
     height: 70px;
     width: 70px;

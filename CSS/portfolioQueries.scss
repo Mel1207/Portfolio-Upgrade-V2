@@ -42,11 +42,11 @@
             .row {
                 .col {
                     margin-left: 0;
-                    // .card {
-                    //     img {
-                    //         height: 180px;
-                    //     }
-                    // }
+                    .card {
+                        img {
+                            height: auto !important
+                        }
+                    }
                 }
             }
         }
