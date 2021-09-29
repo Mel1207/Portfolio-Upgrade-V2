@@ -18,16 +18,13 @@
     font-size: 1.5rem;
   }
   .portfolio .card .card-image img {
-    height: 220px;
+    height: 320px;
   }
 }
 
 @media screen and (max-width: 780px) {
   .portfolio .container .row .col {
     margin-left: 0;
-  }
-  .portfolio .container .row .col .card img {
-    height: 180px;
   }
   .contact img {
     height: 70px;

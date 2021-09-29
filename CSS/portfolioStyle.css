@@ -247,6 +247,10 @@ nav .brand-logo {
   margin-top: 20px;
 }
 
+.portfolio .card .card-image img {
+  height: 380px;
+}
+
 .portfolio .card .tech-id {
   font-size: 14px;
   color: #FF574D;

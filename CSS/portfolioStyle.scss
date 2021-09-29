@@ -160,6 +160,12 @@ nav .brand-logo {
     .card {
         margin-top: 20px;
 
+        .card-image {
+            img {
+                height: 380px;
+            }
+        }
+
         .tech-id {
             font-size: 14px;
             color: #FF574D;
